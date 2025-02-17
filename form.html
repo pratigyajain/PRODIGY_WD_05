@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="nav_box">
+		  <a href="form.html">Sign In</a>
+		</div>
+	  </div>
+	<form action="form.php" method="get">
+		<div class="form-control">
+		<label for="name">Name:-</label>
+		<input type="text" name="name" placeholder="Name">
+	</div>
+	
+	<div class="form-control">
+		<label for="email">E-mail:-</label>
+		<input type="email" name="email" placeholder="E-mail">
+	</div>
+	<div class="form-control">
+		<label for="age">Age:</label>
+		<input type="number" name="age" placeholder="Age">
+	</div>
+	<div class="form-control">
+		<label for="role">Which option best describes you?</label>
+		<select name="role">
+			<option value="student">Student</option>
+			<option value="intern">Intern</option>
+			<option value="professional">Professional</option>
+			<option value="other">Other</option>
+		</select>
+	</div>
+		<div class="form-control">
+			<label for="radio">
+				Gender:
+			</label>
+			<input type="radio" name="male">Male</input><br>
+			<input type="radio" name="female">Female</input><br>
+		</div>
+		<div class="form-control">
+			<label for="comment">Any comments or suggestions</label>
+			<textarea name="comment" placeholder="Enter your Comment Here"></textarea>
+		</div>
+		<div class="form-control">
+			<button type="submit" value="Submit">Submit</button>
+		</div>
+	</form>
+	<footer class="footer">
+		&copy Copyright RP Jain Creation<br>
+	</footer>
+</body>
+</html>

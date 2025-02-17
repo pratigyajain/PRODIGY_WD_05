@@ -1,0 +1,85 @@
+body {
+  background-color: lightpink;
+  font-family: Verdana;
+  text-align: center;
+  margin: 0px;
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: gold;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+.nav_box {
+  height: 80px;
+  width: 100px;
+  margin-right: 50px;
+}
+.nav_box:hover {
+  background-color: goldenrod;
+}
+a {
+  height: 80px;
+  width: 100px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+}
+
+form {
+  background-color: skyblue;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+}
+.form-control {
+  text-align: left;
+  margin-bottom: 30px;
+}
+label {
+  margin: 10px;
+  display: block;
+  color: darkblue;
+}
+input,
+textarea,
+select {
+  border: 2px solid red;
+  padding: 10px;
+  width: 95%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+button {
+  background-color: green;
+  border: 4px double greenyellow;
+  font-family: inherit;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.footer {
+  background-color: black;
+  height: 50px;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  color: whitesmoke;
+}
